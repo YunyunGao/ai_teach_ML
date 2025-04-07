@@ -1,0 +1,46 @@
+{
+    "id": "000001",
+    "description": "Generate code to help understand how sentiment analysis works.",
+    "date": "2025-04-07T12:00:00Z",
+    "model_info": {
+      "name": "chatgpt o3-mini-high",
+      "version": "",
+      "source": "desktop closed-source model"
+    },
+    "environment": {
+      "hardware": {
+        "operating_system": "",
+        "cpu": "",
+        "ram": "",
+        "gpu": ""
+      },
+      "software": {
+        "runner": "",
+        "dependencies": {
+          "python": "",
+          "other_libraries": [""]
+        }
+      }
+    },
+    "prompt": [
+    {
+      "prompt_id": "prompt_001",
+      "prompt_text": "Read this paper and work together with me on how to code the formulas in the paper. First let's start with explain each formula in the paper with an example.",
+      "prompt_type": "text",
+      "prompt_file": "ture"
+    },
+    {
+      "prompt_id": "prompt_002",
+      "prompt_text": "Let's translate the paper into code using pyTorch.  Inputs examples and outputs are required.",
+      "prompt_type": "text",
+      "prompt_file": "false"
+    },
+    {
+      "prompt_id": "prompt_003",
+      "prompt_text": "Implement hugging face transformers library into above code. Use real documents as example.",
+      "prompt_type": "text",
+      "prompt_file": "false"
+    }
+    ],
+    "notes": ""
+  }
