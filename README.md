@@ -7,8 +7,10 @@ This repository serves as a personal learning resource that bridges machine lear
 ```
 root/  
 ├── PaperName/ 
+│   ├── saved_models
+|   │   └── *.pth # Model weights
 │   ├── paper.pdf # Research paper in PDF format 
-│   ├── code.py # AI-generated code
+│   ├── code.py # Code to explain corresponding paper and project 
 │   └── prompt # Prompts used for code generation      
 └── README.md # Project overview and structure
 ```
