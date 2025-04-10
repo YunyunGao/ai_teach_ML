@@ -1,0 +1,88 @@
+{
+    "id": "000001",
+    "description": "Generate code to help understand how sentiment analysis works.",
+    "date": "2025-04-10T14:00:00Z",
+    "model_info": {
+      "name": "chatgpt o3-mini-high",
+      "version": "",
+      "source": "desktop closed-source model"
+    },
+    "environment": {
+      "hardware": {
+        "operating_system": "",
+        "cpu": "",
+        "ram": "",
+        "gpu": ""
+      },
+      "software": {
+        "runner": "",
+        "dependencies": {
+          "python": "",
+          "other_libraries": [""]
+        }
+      }
+    },
+    "prompt": [
+    {
+      "prompt_id": "prompt_001",
+      "prompt_text": "Write a PyTorch project for digits recognition using the MNIST datasets.",
+      "prompt_type": "text",
+      "prompt_file": "false"
+    },
+    {
+      "prompt_id": "prompt_002",
+      "prompt_text": "How do you know the MNIST dataset mean and standard deviation",
+      "prompt_type": "text",
+      "prompt_file": "false"
+    },
+    {
+      "prompt_id": "prompt_003",
+      "prompt_text": "how to do predict using trained model?",
+      "prompt_type": "text",
+      "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_004",
+        "prompt_text": "how to do predict using trained model?",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_005",
+        "prompt_text": "Include bias in the code",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_006",
+        "prompt_text": "How can I detect neuron activity? Demonstrate based on the existing code if possible.",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_007",
+        "prompt_text": "I do not see backward, I want to see how increase epoch can affect the activation and how each neurons exactly changes. I assume this can be visualized by a 2d plot, with x-axis the neurons and y axis the epoch ",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_008",
+        "prompt_text": "Give me a python example on how cross entropy loss is calculated",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_009",
+        "prompt_text": "So during the training, so in order to get a small loss, logits[0,0] should increase and logits[1, 0] should decrease, parameters will be adjusted towards this goal?",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    },
+    {
+        "prompt_id": "prompt_010",
+        "prompt_text": "I have a wrong prediction, is it possible to even evaluate why a 5 is identified as 0 even the accuracy  of the model has reached 99.99%? give me three solutions pythorch provide",
+        "prompt_type": "text",
+        "prompt_file": "false"
+    }
+    ],
+    "notes": ""
+  }

@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/usr/local/cuda-12.6/bin:${env:PATH}",
+        "LD_LIBRARY_PATH": "/usr/local/cuda-12.6/lib64:${env:LD_LIBRARY_PATH}"
+    },
+    "jupyter.interactiveWindow.textEditor.executeSelection": true
+}

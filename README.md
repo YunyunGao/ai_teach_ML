@@ -8,7 +8,7 @@ This repository serves as a personal learning resource that bridges machine lear
 root/  
 ├── PaperName/ 
 │   ├── paper.pdf # Research paper in PDF format 
-│   ├── code.py # AI-generated code (primarily PyTorch) 
+│   ├── code.py # AI-generated code
 │   └── prompt # Prompts used for code generation      
 └── README.md # Project overview and structure
 ```
